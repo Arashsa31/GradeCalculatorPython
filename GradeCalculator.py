@@ -16,6 +16,7 @@ while score < 0 or score > 100:
     print("The score you entered is incorrect. You entered the score {}. Please try again.".format(score))
     print("Enter a score between 0 to 100 to receive the corresponding grade:")
     score = float(input())
+    
 #convert number to letter grade
 if score >= 90:
     grade = 'A'
